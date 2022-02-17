@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #555;
+  background: #e8dc05;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@ body {
   position: relative;
   width: 800px;
   height: 500px;
-  background: #222;
+  background: #e8dc05;
 }
 
 .clip {
