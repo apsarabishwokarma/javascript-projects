@@ -124,6 +124,7 @@ p {
   flex-wrap: wrap; /* make responsive, images flow down */
   flex-direction: row;
   gap: 10px;
+  margin-bottom: 30px;
 }
 
 img {
