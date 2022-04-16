@@ -94,12 +94,9 @@ p {
 
 /* About Section */
 #about {
-  background-color: #ecf0f1;
   padding: 50px 20px;
   margin: 30px auto;
   max-width: 900px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #about h1 {
@@ -179,8 +176,6 @@ p {
 #portfolio img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
 
@@ -190,12 +185,9 @@ p {
 
 /* Contact Section */
 #contact {
-  background: #ecf0f1;
-  border-radius: 10px;
   padding: 30px;
   margin: 20px auto;
   max-width: 900px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .form {
