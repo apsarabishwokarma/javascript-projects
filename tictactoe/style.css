@@ -1,118 +1,155 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav{
-    background-color: rgb(37, 9, 37);
-    color: white;
-    height: 65px;
-    font-size: 27px;
-    display: flex;
-    align-items: center;
-    padding: 0 12px;
-    font-family: 'Roboto', sans-serif;
+body {
+  background-image: url("https://images.unsplash.com/photo-1531265726475-52ad60219627");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  color: #fff; /* Sets a default text color for better readability on the background */
 }
 
-nav ul{
-    list-style-type: none;
+nav {
+  background-color: rgba(
+    37,
+    9,
+    37,
+    0.9
+  ); /* Slight transparency for a modern look */
+  color: white;
+  height: 65px;
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Adds a shadow for better visibility */
 }
 
-.gameContainer{ 
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+nav ul {
+  list-style-type: none;
 }
 
-.container{
-    display: grid;
-    grid-template-rows: repeat(3, 10vw);
-    grid-template-columns: repeat(3, 10vw);
-    font-family: 'Roboto', sans-serif;
-    position: relative;
+.gameContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-.box{
-    border: 2px solid black;
-    font-size: 8vw;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, 10vw);
+  grid-template-columns: repeat(3, 10vw);
+  gap: 5px; /* Adds spacing between boxes */
+  font-family: "Roboto", sans-serif;
+  position: relative;
 }
 
-.box:hover{
-    background-color: rgb(242, 234, 250);
+.box {
+  border: 2px solid rgba(255, 255, 255, 0.8); /* Transparent border for a cleaner look */
+  font-size: 8vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Semi-transparent background for aesthetic */
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.box:hover {
+  background-color: rgba(242, 234, 250, 0.7); /* Softer hover effect */
+  transform: scale(1.1); /* Slight scaling on hover */
 }
 
 .info {
-    font-size: 22px;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.gameInfo{
-    padding: 0 34px;
-    font-family: 'Baloo Bhaina 2', cursive;
+.gameInfo {
+  padding: 0 34px;
+  font-family: "Baloo Bhaina 2", cursive;
+  text-align: center;
 }
 
-.gameInfo h1{
-    font-size: 2.5rem;
+.gameInfo h1 {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
 }
 
-.imgbox img{
-    width: 0;
-    transition: width 1s ease-in-out;
+.imgbox img {
+  width: 0;
+  transition: width 1s ease-in-out;
 }
 
-.br-0{
-    border-right: 0;
+.br-0 {
+  border-right: 0;
 }
 
-.bl-0{
-    border-left: 0;
+.bl-0 {
+  border-left: 0;
 }
 
-.bt-0{
-    border-top: 0;
+.bt-0 {
+  border-top: 0;
 }
 
-.bb-0{
-    border-bottom: 0;
+.bb-0 {
+  border-bottom: 0;
 }
 
 #reset {
-    margin: 0 23px;
-    padding: 1px 18px;
-    background: #f3e7f9;
-    border-radius: 6px;
-    cursor: pointer;
-    font-family: 'Baloo Bhaina 2';
-    font-size: 15px;
-    font-weight: bolder;
+  margin: 20px auto;
+  padding: 10px 18px;
+  background: rgba(243, 231, 249, 0.9);
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Baloo Bhaina 2";
+  font-size: 15px;
+  font-weight: bolder;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
+  transition: background 0.3s;
 }
 
-.line{
-    background-color: black;
-    height: 3px;
-    width: 0;
-    position: absolute;
-    background-color: #911d91;
-    transition: width 1s ease-in-out;
+#reset:hover {
+  background: rgba(200, 200, 255, 0.9); /* Hover effect for button */
 }
 
-@media screen and (max-width: 950px)
-{
-    .gameContainer{
-        flex-wrap: wrap;
-    }
-    .gameInfo{
-        margin-top: 34px;
-    }
-    .gameInfo h1{
-        font-size: 1.5rem;
-    }
-    .container { 
-        grid-template-rows: repeat(3, 20vw);
-        grid-template-columns: repeat(3, 20vw);
-    }
+.line {
+  background-color: #911d91;
+  height: 3px;
+  width: 0;
+  position: absolute;
+  transition: width 1s ease-in-out;
+}
+
+@media screen and (max-width: 950px) {
+  .gameContainer {
+    flex-wrap: wrap;
+  }
+  .gameInfo {
+    margin-top: 34px;
+  }
+  .gameInfo h1 {
+    font-size: 1.5rem;
+  }
+  .container {
+    grid-template-rows: repeat(3, 20vw);
+    grid-template-columns: repeat(3, 20vw);
+  }
+  .box {
+    font-size: 14vw; /* Adjusts box font size for smaller screens */
+  }
 }
