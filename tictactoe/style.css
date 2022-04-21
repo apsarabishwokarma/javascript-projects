@@ -6,21 +6,16 @@
 }
 
 body {
-  background-image: url("https://images.unsplash.com/photo-1531265726475-52ad60219627");
+  background-image: url("https://images.unsplash.com/photo-1504177847824-d075f5706770");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   font-family: "Roboto", sans-serif;
-  color: #fff; /* Sets a default text color for better readability on the background */
+  color: #fff;
 }
 
 nav {
-  background-color: rgba(
-    37,
-    9,
-    37,
-    0.9
-  ); /* Slight transparency for a modern look */
+  background-color: rgba(37, 9, 37, 0.9);
   color: white;
   height: 65px;
   font-size: 27px;
@@ -28,7 +23,7 @@ nav {
   align-items: center;
   padding: 0 12px;
   font-family: "Roboto", sans-serif;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Adds a shadow for better visibility */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 nav ul {
@@ -45,30 +40,25 @@ nav ul {
   display: grid;
   grid-template-rows: repeat(3, 10vw);
   grid-template-columns: repeat(3, 10vw);
-  gap: 5px; /* Adds spacing between boxes */
+  gap: 5px;
   font-family: "Roboto", sans-serif;
   position: relative;
 }
 
 .box {
-  border: 2px solid rgba(255, 255, 255, 0.8); /* Transparent border for a cleaner look */
+  border: 2px solid rgba(255, 255, 255, 0.8);
   font-size: 8vw;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.2
-  ); /* Semi-transparent background for aesthetic */
+  background-color: rgba(255, 255, 255, 0.2);
   transition: transform 0.2s, background-color 0.3s;
 }
 
 .box:hover {
-  background-color: rgba(242, 234, 250, 0.7); /* Softer hover effect */
-  transform: scale(1.1); /* Slight scaling on hover */
+  background-color: rgba(242, 234, 250, 0.7);
+  transform: scale(1.1);
 }
 
 .info {
@@ -85,7 +75,7 @@ nav ul {
 
 .gameInfo h1 {
   font-size: 2.5rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .imgbox img {
@@ -119,12 +109,12 @@ nav ul {
   font-size: 15px;
   font-weight: bolder;
   border: none;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   transition: background 0.3s;
 }
 
 #reset:hover {
-  background: rgba(200, 200, 255, 0.9); /* Hover effect for button */
+  background: rgba(200, 200, 255, 0.9);
 }
 
 .line {
@@ -150,6 +140,6 @@ nav ul {
     grid-template-columns: repeat(3, 20vw);
   }
   .box {
-    font-size: 14vw; /* Adjusts box font size for smaller screens */
+    font-size: 14vw;
   }
 }
