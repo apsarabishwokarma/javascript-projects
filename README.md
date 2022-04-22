@@ -1,4 +1,5 @@
 ![](https://www.codingnepalweb.com/wp-content/uploads/2022/09/10-best-beginner-to-intermediate-js-projec-fix.jpg)
+![Javascript Projects](https://www.codingnepalweb.com/wp-content/uploads/2022/09/10-best-beginner-to-intermediate-js-projec-fix.jpg)
 
 ### 1. transparent_form
 
@@ -29,8 +30,7 @@
 
 ### 5. Form Validation
 
-- [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/transparent_form/formValidation
-)
+- [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/transparent_form/formValidation)
 - HTML: Form elements for user input.
 - CSS: Styling for form layout and validation messages.
 - JS: Validation logic to check user input and display appropriate messages.
@@ -91,11 +91,10 @@
 - CSS: Styling for layout, colors, and player controls.
 - JS: DOM manipulation for playing/pausing music, changing tracks, and displaying metadata.
 
-
 ### 14. Youtube [Responsive, REST API, Tooltip, Drawer]
 
 - [Reference 🎨](<https://www.figma.com/file/6JyLA1l1DTup2L4YHold1e/YouTube---Redesign-homepage-(Community)?type=design&node-id=0-1&t=kOtpu9vWz5oDOjbO-0>)
-- [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/youtube) 
+- [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/youtube)
 - CSS :
 - JS :
 
@@ -104,5 +103,3 @@ console.log("to be continued");
 ![](https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2)
 
 ```
-
-
