@@ -1,4 +1,3 @@
-/* General styles for the body */
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f8ff;
@@ -11,14 +10,12 @@ body {
   height: 100vh;
 }
 
-/* Header styles */
 h1 {
   color: #333;
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* Form styles */
 form {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -29,7 +26,6 @@ form {
   width: 100%;
 }
 
-/* Individual form elements */
 .formdesign {
   margin-bottom: 15px;
 }
