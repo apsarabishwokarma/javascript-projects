@@ -105,6 +105,4 @@
 
 ```js
 console.log("to be continued");
-![](https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2)
-
 ```
