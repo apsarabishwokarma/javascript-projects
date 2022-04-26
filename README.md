@@ -83,14 +83,20 @@
 - CSS: Styling for form layout and responsiveness.
 - JS: Basic form validation and submission handling.
 
-### 13. Spotify
+### 13. Art Gallery
+
+- [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/art)
+- HTML: Form elements for login input.
+- CSS: Styling for form layout and responsiveness.
+
+### 14. Spotify
 
 - [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/spotify)
 - HTML: Structure for music player, buttons, and controls.
 - CSS: Styling for layout, colors, and player controls.
 - JS: DOM manipulation for playing/pausing music, changing tracks, and displaying metadata.
 
-### 14. Youtube [Responsive, REST API, Tooltip, Drawer]
+### 1. Youtube [Responsive, REST API, Tooltip, Drawer]
 
 - [Reference 🎨](<https://www.figma.com/file/6JyLA1l1DTup2L4YHold1e/YouTube---Redesign-homepage-(Community)?type=design&node-id=0-1&t=kOtpu9vWz5oDOjbO-0>)
 - [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/youtube)
