@@ -86,17 +86,23 @@
 ### 13. Art Gallery
 
 - [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/art)
-- HTML: Form elements for login input.
+- HTML: structure for art gallery.
 - CSS: Styling for form layout and responsiveness.
 
-### 14. Spotify
+### 14. Random Quotes Generator
+
+- [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/random-quotes)
+- HTML: structure for random quotes generator.
+- CSS: Styling for form layout and responsiveness.
+
+### 15. Spotify
 
 - [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/spotify)
 - HTML: Structure for music player, buttons, and controls.
 - CSS: Styling for layout, colors, and player controls.
 - JS: DOM manipulation for playing/pausing music, changing tracks, and displaying metadata.
 
-### 1. Youtube [Responsive, REST API, Tooltip, Drawer]
+### 16. Youtube [Responsive, REST API, Tooltip, Drawer]
 
 - [Reference 🎨](<https://www.figma.com/file/6JyLA1l1DTup2L4YHold1e/YouTube---Redesign-homepage-(Community)?type=design&node-id=0-1&t=kOtpu9vWz5oDOjbO-0>)
 - [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/youtube)
