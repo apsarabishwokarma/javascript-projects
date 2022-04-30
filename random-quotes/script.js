@@ -4,7 +4,6 @@ const authorOutput = document.getElementById("authorOutput");
 
 generateQuoteBtn.addEventListener("click", generateQuote);
 
-// https://www.shopify.com/blog/motivational-quotes
 const arrayOfQuotes = [
   {
     author: "Albert Einstein",
