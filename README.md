@@ -138,7 +138,13 @@
 - HTML: structure for Github clone.
 - CSS: Styling for layout and responsiveness.
 
-### . Youtube [Responsive, REST API, Tooltip, Drawer]
+### 22. Amazon Clone
+
+- [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/amazon-clone)
+- HTML: structure for Amazon clone.
+- CSS: Styling for layout and responsiveness.
+
+### 23. Youtube [Responsive, REST API, Tooltip, Drawer]
 
 - [Reference 🎨](<https://www.figma.com/file/6JyLA1l1DTup2L4YHold1e/YouTube---Redesign-homepage-(Community)?type=design&node-id=0-1&t=kOtpu9vWz5oDOjbO-0>)
 - [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/youtube)
