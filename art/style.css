@@ -173,6 +173,54 @@ nav {
   margin-top: 1.5rem;
 }
 
+/* Art Intro Section */
+.art-intro {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #170e00, #d35400);
+  color: white;
+}
+
+.main-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.primary-description {
+  font-size: 1.2rem;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.secondary-description {
+  font-size: 1rem;
+  margin: 20px auto 30px;
+  max-width: 700px;
+  opacity: 0.9;
+}
+
+.highlight {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 2.5rem;
+  }
+
+  .primary-description,
+  .secondary-description {
+    font-size: 1rem;
+  }
+}
+
 /* Images in main section */
 main {
   display: grid;
