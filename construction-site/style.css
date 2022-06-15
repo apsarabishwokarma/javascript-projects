@@ -198,7 +198,8 @@ span {
 }
 
 .owner-image {
-  background: url(Images/Zayn.jpg) no-repeat top/cover;
+  background: url("https://images.unsplash.com/photo-1602233158242-3ba0ac4d2167")
+    no-repeat top/cover;
   width: 300px;
   height: 300px;
   margin-right: 10rem;
