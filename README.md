@@ -101,14 +101,32 @@
 - HTML: structure for typing game.
 - CSS: Styling for layout and responsiveness.
 
-### 16. Spotify
+### 16. coffee shop
+
+- [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/coffee-shop)
+- HTML: structure for coffee.
+- CSS: Styling for layout and responsiveness.
+
+### 17. Foodie
+
+- [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/foodie)
+- HTML: structure for foodie.
+- CSS: Styling for layout and responsiveness.
+
+### 18. Construction site
+
+- [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/construction-site)
+- HTML: structure for Construction site.
+- CSS: Styling for layout and responsiveness.
+
+### 19. Spotify
 
 - [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/spotify)
 - HTML: Structure for music player, buttons, and controls.
 - CSS: Styling for layout, colors, and player controls.
 - JS: DOM manipulation for playing/pausing music, changing tracks, and displaying metadata.
 
-### 17. Youtube [Responsive, REST API, Tooltip, Drawer]
+### . Youtube [Responsive, REST API, Tooltip, Drawer]
 
 - [Reference 🎨](<https://www.figma.com/file/6JyLA1l1DTup2L4YHold1e/YouTube---Redesign-homepage-(Community)?type=design&node-id=0-1&t=kOtpu9vWz5oDOjbO-0>)
 - [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/youtube)
