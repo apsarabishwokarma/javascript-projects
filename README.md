@@ -126,6 +126,12 @@
 - HTML: structure for Construction site.
 - CSS: Styling for layout and responsiveness.
 
+### 20. Captcha Solver
+
+- [LIVE 🌐](https://apsarabishwokarma.github.io/javascript-projects/captcha-solver)
+- HTML: structure for Captcha Solver.
+- CSS: Styling for layout and responsiveness.
+
 ### . Youtube [Responsive, REST API, Tooltip, Drawer]
 
 - [Reference 🎨](<https://www.figma.com/file/6JyLA1l1DTup2L4YHold1e/YouTube---Redesign-homepage-(Community)?type=design&node-id=0-1&t=kOtpu9vWz5oDOjbO-0>)
