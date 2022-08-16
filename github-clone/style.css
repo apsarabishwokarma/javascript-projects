@@ -191,7 +191,7 @@ main p {
 }
 
 .repo-title {
-  text-decoration: non;
+  text-decoration: none;
   color: #549ef3;
   font-weight: 500;
   margin-top: 3rem;
