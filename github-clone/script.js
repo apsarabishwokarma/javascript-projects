@@ -23,6 +23,7 @@ async function fetchData(username) {
     } = await response.json();
 
     const html = `
+   
     <div
       class="user-avatar"
       style="background: url(${avatar_url}) no-repeat center/cover"
@@ -45,7 +46,7 @@ async function fetchData(username) {
         <i class="fa-solid fa-link"></i> <a href="${blog}" target="_blank">${
       blog || "N/A"
     }</a>
-      </div>
+     </div>
       <div class="icon-container">
         <i class="fa-brands fa-twitter"></i> <a href="https://twitter.com/${twitter_username}" target="_blank">@${
       twitter_username || "N/A"
