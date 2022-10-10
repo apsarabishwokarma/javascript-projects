@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-left: 16px;
+  padding-top: 20px;
+  background-color: #131313;
+  font-family: "Rubik", sans-serif;
+}
+
+.maindiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-wrapper {
+  width: 100%;
+  max-width: 500px;
+}
+
+.title {
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+}
+
+.greeting h2 {
+  margin-bottom: 0;
+  font-weight: 600;
+  text-align: left;
+}
+
+.greeting p {
+  margin-top: 0;
+  margin-left: 10px;
+  font-weight: 400;
+  color: #8c8f8f;
+}
+
+.date {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+}
+
+#addbtn {
+  padding: 10px;
+  width: 17%;
+  background: grey;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type="text"] {
+  width: 82%;
+  background-color: #252525;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#tasks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.todoDetails {
+  color: white;
+  background-color: #252525;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+}
+
+input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+}
+
+input[type="checkbox"] + label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+input[type="checkbox"] + label::before,
+input[type="checkbox"] + label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+input[type="checkbox"] + label::before {
+  outline: 2px solid white;
+}
+input[type="checkbox"]:checked + label::before {
+  outline: 2px solid green;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+input[type="checkbox"]:checked + label::after {
+  background-image: url("https://clipart-library.com/images_k/check-mark-png-transparent/check-mark-png-transparent-6.png");
+  background-size: contain;
+  transform: translateY(-50%) scale(1);
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+input[type="checkbox"]:not(:checked) + label::after {
+  background-image: url("https://clipart-library.com/images_k/check-mark-png-transparent/check-mark-png-transparent-6.png");
+  background-size: contain;
+  opacity: 0;
+}
+
+.todoDate {
+  margin-bottom: 0;
+  font-size: small;
+  color: #8c8f8f;
+}
+
+.task {
+  margin-top: 0;
+  font-size: medium;
+}
+
+i {
+  position: absolute;
+  right: 20px;
+  color: red;
+  cursor: pointer;
+}

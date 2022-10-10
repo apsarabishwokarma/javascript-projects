@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script> <!-- defer :to load html,css and then js -->
+  <script src="https://kit.fontawesome.com/c977b04c1d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <main class="maindiv">
+    <div class="todo-wrapper">
+      <div class="title">
+        <p class="date">Feb<br>4</p>
+        <div class="greeting">
+          <h2>Good Morning.</h2>
+          <p>What's Your Plan for Today?</p>
+        </div>
+      </div>
+
+      <form>
+        <input type="text" placeholder="Add Todo" id="todoInput">
+        <button id="addbtn" type="submit">Add</button>
+      </form>
+
+      <div id="tasks">
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>
