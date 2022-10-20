@@ -39,7 +39,7 @@
 - JS :
 
 
-h2>Projects</h2>
+<h5>Projects</h5>
 
 Here is a list of the projects included in this folder:
 
