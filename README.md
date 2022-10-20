@@ -37,3 +37,28 @@
 - [LIVE 🌐](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap/vanilla/youtube)
 - CSS :
 - JS :
+
+
+h2>Projects</h2>
+
+Here is a list of the projects included in this folder:
+
+[Spotify](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap//spotify)
+
+[TODO](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap//TodoList)
+
+[Digital clock](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap/clock)
+
+[projectile-simulation](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap//Projectile-simulation)
+
+[Form validation](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap//formValidation)
+
+[Portfolio](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap//portfolio)
+
+[minicalender](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap//miniCalender)
+
+[TicTacToe](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap//tictactoe)
+
+[Responsiveloginform](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap//basic%20of%20form)
+
+
