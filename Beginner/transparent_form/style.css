@@ -18,7 +18,7 @@ body {
   max-width: 420px;
   /* margin-left: 318px;
   margin-right: 318px; */
-  box-shadow: 0px 0px 100px 20px #f7b8f5; /* x y blur spread color */
+  box-shadow: 0px 0px 100px 20px #f7b8f5; /*[horizontal(x)offset] [vertical(y)soffset] [blur radius] [optional spread radius] [color];*/
 }
 
 h2 {
