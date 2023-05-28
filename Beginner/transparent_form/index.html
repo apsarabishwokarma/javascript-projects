@@ -11,21 +11,24 @@
 
 <body>
   <div class="container">
-    <form class="box">
+    <form class="myform" id="myform">
       <h2>Transparent Form</h2>
       <div>
         <label for="email">Email</label>
         <input type="email" id="email" />
+        <p class="error" id="emailerror"></p>
       </div>
       <div>
         <label for="psd">Password</label>
         <input type="password" id="psd" />
+        <p class="error" id="psderror"></p>
       </div>
       <button type="submit">Sign In</button>
 
       <!-- <button type="button">Sign up instead</button> -->
     </form>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
