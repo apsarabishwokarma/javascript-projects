@@ -1,3 +1,5 @@
+<div style="background-image: url('https://www.codingnepalweb.com/wp-content/uploads/2022/09/10-best-beginner-to-intermediate-js-projec-fix.jpg'); background-size: cover; background-position: center; height: 300px;"></div>
+
 # Web Development Roadmap
 
 ## Beginner Projects
@@ -12,3 +14,6 @@
 ### 2. calculator
 
 - Reference: https://www.figma.com/community/file/984658356416751911
+- HTML:
+- CSS :
+- JS :
