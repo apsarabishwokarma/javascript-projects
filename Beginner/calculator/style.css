@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #daf0ff;
+  font-family: Helvetica, sans-serif;
+}
+
+.calculator {
+  width: 375px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 40px auto 180px;
+  background: #f7f8fb;
+  border-radius: 39px;
+  padding: 42px 34px;
+  box-shadow: 123px 105px 61.5px 0 #60beff8c;
+}
+
+.display {
+  text-align: right;
+  margin-bottom: 78px;
+}
+
+.expressions {
+  margin-top: 96px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.solution {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px; /* selection height */
+}
+
+.buttonItem {
+  border: none;
+  border-radius: 16px;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.buttonItem:active {
+  box-shadow: 0px 0px 5px 0px #7cc9ff;
+}
+
+.specialOperations {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates four equal-width columns */
+  gap: 22px 20px;
+  margin-bottom: 16px;
+}
+
+.specialOperations button {
+  color: #7cc9ff;
+  width: 62px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.numberBox {
+  display: grid;
+  /* grid-column: 4; */
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Creates four equal-width columns i.e. 1fr 1fr 1fr 1fr */
+  gap: 10px;
+}
+
+.numberBox .buttonItem {
+  font-weight: 500;
+  font-size: 32px;
+  height: 62px;
+}
+
+.digit {
+  color: #38b9ff;
+}
+
+.operation {
+  background: #ade2ff;
+  border-radius: 12px;
+  color: #109dff;
+}
+
+.equal {
+  background: #19acff;
+  box-shadow: -9px 13px 23px rgba(0, 163, 255, 0.65),
+    inset -3px 4px 11px #b0dfff;
+  border-radius: 12px;
+  grid-row: 4/6;
+  grid-column: 4/5;
+  height: auto !important;
+}
+
+.equal:active {
+  box-shadow: -6px 10px 23px rgba(0, 163, 255, 0.65),
+    inset -3px 4px 11px #b0dfff;
+}
+
+.doubleCols {
+  grid-column: 1/3;
+}
+
+.reset,
+.clear {
+  color: #858585;
+}
