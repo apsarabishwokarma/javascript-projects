@@ -4,15 +4,17 @@
 
 ## Beginner Projects
 
-### 1. transparent_form
+### 1.transparent_form
 
 - Reference: https://roopaish.github.io/CSS-RoadMap/Transparent%20Login%20Form/
 - HTML: form elements
 - CSS: selectors, background, flex, backdrop-filter, padding, margin, font-size, border, border-radius, box-shadow, color etc.
 - JS: DOM manipulation, Form Validation, Events
+- [LIVE](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap/Beginner/transparent_form)
 
 ### 2. calculator
 
 - Reference: https://www.figma.com/community/file/984658356416751911
 - CSS : box-shadow, grid, important, multiple classes, line-height, cursor
 - JS :
+- [LIVE](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap/Beginner/calculator)
