@@ -18,8 +18,11 @@ function calculateSolution() {
     .replaceAll("×", "*")
     .replaceAll("−", "-")
     .replaceAll("•", ".");
+  const solution = eval(expressions);
 
-  solutionEl.innerHTML = eval(expressions).toFixed(2); //evaluate math expression & display 2 digit after decimal
+  solutionEl.innerHTML = Number.isInteger(solution)
+    ? solution.toFixed(0)
+    : solution.toFixed(2); //evaluate math expression & display 2 digit after decimal
   expressionEl.value = solutionEl.innerHTML;
 }
 equalEl.addEventListener("click", calculateSolution);
