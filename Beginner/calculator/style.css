@@ -107,6 +107,7 @@ body {
   grid-row: 4/6;
   grid-column: 4/5;
   height: auto !important;
+  color: white;
 }
 
 .equal:active {
