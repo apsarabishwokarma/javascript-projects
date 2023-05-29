@@ -7,7 +7,7 @@ const clear = document.querySelector(".clear");
 
 for (var i = 0; i < literalsEls.length; i++) {
   literalsEls[i].addEventListener("click", (e) => {
-    const el = e.target;
+    const el = e.target; //
     expressionEl.value += el.innerHTML; // expressionEl.value = expressionEl.value+el.innerHTMl
     //we don't use innerHTML for input tag(<input/>)
   });
@@ -19,7 +19,7 @@ function calculateSolution() {
     .replaceAll("−", "-")
     .replaceAll("•", ".");
 
-  solutionEl.innerHTML = eval(expressions).toFixed(2);
+  solutionEl.innerHTML = eval(expressions).toFixed(2); //evaluate math expression & display 2 digit after decimal
   expressionEl.value = solutionEl.innerHTML;
 }
 equalEl.addEventListener("click", calculateSolution);
@@ -30,5 +30,6 @@ reset.addEventListener("click", () => {
 clear.addEventListener("click", () => {
   expressionEl.value = expressionEl.value.slice(0, -1);
   //The slice() method extracts a section of a string and returns it as a new string,
-  // without modifying the original string.
+  //the numbers 0 and -1 represent the start and stop positions
+
 });

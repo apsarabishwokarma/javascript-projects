@@ -17,4 +17,4 @@
 - [Reference 🎨](https://www.figma.com/community/file/984658356416751911)
 - [LIVE 🌐](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap/Beginner/calculator)
 - CSS : box-shadow, grid, important, multiple classes, line-height, cursor
-- JS :
+- JS : querySelector, replaceAll(), eval(), toFixed(2), slice()method, 
