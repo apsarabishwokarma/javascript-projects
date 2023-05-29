@@ -21,7 +21,7 @@ function calculateSolution() {
   const solution = eval(expressions);
 
   solutionEl.innerHTML = Number.isInteger(solution)
-    ? solution.toFixed(0)
+    ? solution.toFixed(0) //if integer, don't show any decimal
     : solution.toFixed(2); //evaluate math expression & display 2 digit after decimal
   expressionEl.value = solutionEl.innerHTML;
 }
