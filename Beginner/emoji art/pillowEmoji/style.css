@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+.chat {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  color: yellow;
+  position: absolute;
+  top: 190px;
+  left: 200px;
+}
+
+.emoji {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+.head {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border-radius: 200px;
+  position: relative;
+  margin: 200px auto;
+}
+
+.eyebrow1,
+.eyebrow2 {
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  border-radius: 90px;
+}
+.eyebrow1 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.eyebrow2 {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.eye1,
+.eye2 {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 40px;
+}
+
+.eye1 {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+
+.eye2 {
+  position: absolute;
+  top: 50px;
+  right: 40px;
+}
+
+.pupil1,
+.pupil2 {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.pupil1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.pupil2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.nose {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position: absolute;
+  top: 90px;
+  right: 90px;
+}
+
+.mouth {
+  width: 85px;
+  height: 20px;
+  background-color: black;
+  border-radius: 90%;
+  position: absolute;
+  top: 140px;
+  right: 60px;
+}
+
+.tooth {
+  width: 65px;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+
+.tongue {
+  width: 35px;
+  height: 10px;
+  background-color: #ff485f;
+  border-radius: 24px;
+  position: absolute;
+  top: 11px;
+  right: 25px;
+}
