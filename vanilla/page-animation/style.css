@@ -11,9 +11,18 @@ body {
   max-width: 1200px;
 }
 
-@keyframes slideIn {
+@keyframes width {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes animation1 {
   0% {
-    transform: translateY(-100%);
+    transform: translateY(-10%);
     opacity: 0;
   }
   100% {
@@ -22,17 +31,42 @@ body {
   }
 }
 
+@keyframes animation2 {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes animation3 {
+  0% {
+    transform: translateX(20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 header {
   background-color: #b06a3d;
-  margin: 0 auto;
   padding: 20px;
   margin-top: 20px;
   border-radius: 20px;
-  animation: slideIn 1s ease-in-out;
+  overflow: hidden;
+  animation: width 0.5s ease-in-out;
 }
 nav {
   font-size: 20px;
   font-weight: 700;
+  opacity: 0;
+  animation: animation1 0.5s ease-in-out forwards;
+  animation-delay: 0.5s;
 }
 
 nav ul {
@@ -56,7 +90,6 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 80px;
-  animation: slideIn 2s ease-in-out;
 }
 
 .intro {
@@ -64,17 +97,21 @@ main {
 }
 
 h3 {
-  animation: slideIn 3s ease-in-out;
   font-family: Arial;
   font-weight: 700;
   font-size: 18px;
   color: #0a0a0a;
   margin-bottom: 10px;
+  animation: animation2 0.5s ease-in-out forwards;
+  animation-delay: 1s;
+  opacity: 0;
 }
 p {
-  animation: slideIn 3.2s ease-in-out;
   color: #080808;
   font-family: Arial;
+  animation: animation3 0.5s ease-in-out forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
 }
 .info {
 }
