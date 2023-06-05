@@ -27,12 +27,13 @@
 
 ### 4. Animated page load
 
-- [Reference 🎨](https://www.figma.com/community/file/984658356416751911)
+- [Reference 🎨](https://roopaish.github.io/CSS-RoadMap/Animated%20Page%20Load/)
 - [LIVE 🌐](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap/vanilla/page-animation)
 - CSS : animation, keyframes, media-query, grid
 
 ### 5. Youtube [Responsive, REST API, Tooltip, Drawer]
 
+- [Reference 🎨](<https://www.figma.com/file/6JyLA1l1DTup2L4YHold1e/YouTube---Redesign-homepage-(Community)?type=design&node-id=0-1&t=kOtpu9vWz5oDOjbO-0>)
 - [LIVE 🌐](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap/vanilla/youtube)
 - CSS :
 - JS :
