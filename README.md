@@ -28,4 +28,13 @@
 
 ### 4. Animated page load
 
+- [Reference 🎨](https://www.figma.com/community/file/984658356416751911)
+- [LIVE 🌐](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap/vanilla/page-animation)
+- CSS :animation
+- JS :
+
 ### 5. Youtube [Responsive, REST API, Tooltip, Drawer]
+
+- [LIVE 🌐](https://apsarabiswokarma.github.io/WebDevelopment-Roadmap/vanilla/youtube)
+- CSS :
+- JS :
