@@ -6,4 +6,114 @@
 
 body {
   background-color: white;
+  padding: 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tosearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 59px;
+}
+
+.leftsearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.rightsearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 45px;
+}
+
+.menu {
+}
+
+.ytlogo {
+}
+
+input {
+  width: 700px;
+  height: 34px;
+}
+
+.search {
+}
+
+.threeicons {
+  display: flex;
+  gap: 50px;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.profile {
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-bottom: 58px;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.category p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+
+/* category&active is one class so  */
+.category.active p {
+  color: red;
+}
+
+.subscriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.subscription {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.subscriptions .title {
+  color: black;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.setting {
+  display: flex;
+}
+
+.videos {
+  width: 400px;
+  height: 200px;
 }
