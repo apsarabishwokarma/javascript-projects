@@ -6,6 +6,7 @@
 
 body {
   background-color: cornflowerblue;
+  padding: 20px;
 }
 
 .chat {
@@ -14,12 +15,19 @@ body {
   font-weight: 600;
   align-items: center;
   color: yellow;
-  position: absolute;
-  top: 190px;
-  left: 220px;
 }
 
-.emoji {
+main {
+  padding: 10px 0;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  height: 80vh;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 54px;
 }
 
 .head {
@@ -28,7 +36,7 @@ body {
   background-color: yellow;
   border-radius: 200px;
   position: relative;
-  margin: 200px auto;
+  margin: 20px auto;
 }
 
 .eyebrow1,
@@ -171,7 +179,7 @@ body {
   background-color: yellow;
   border-radius: 200px;
   position: relative;
-  margin: 200px auto;
+  margin: 20px auto;
 }
 
 .eye1-s,
