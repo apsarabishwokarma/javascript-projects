@@ -56,12 +56,25 @@ input {
 }
 
 img {
+}
+
+.profile {
   height: 40px;
   width: 40px;
   border-radius: 100%;
 }
 
-.profile {
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 200px;
 }
 
 .categories {
@@ -111,9 +124,35 @@ img {
 
 .setting {
   display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 104px;
+  padding-left: 30px;
 }
 
-.videos {
-  width: 400px;
-  height: 200px;
+.videosection {
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+}
+
+.uploadtitle {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.uploadtitle p {
+  font-family: Impact;
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+.content {
+  flex: 1;
+}
+
+.videos img {
+  width: 150px;
+  height: 100px;
 }

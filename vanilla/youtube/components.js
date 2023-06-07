@@ -8,7 +8,7 @@ function CategoryComponent(icon, title) {
 function SubscriptionComponent(img, name) {
   return `
     <div class="subscription">
-      <img src="${img}" />
+      <img class="profile" src="${img}" />
       <p>${name}</p>
     </div>
   `;
