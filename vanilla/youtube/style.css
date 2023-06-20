@@ -47,7 +47,9 @@ input {
   height: 34px;
 }
 
-.search {
+.search .button {
+  height: 10px;
+  width: 10px;
 }
 
 .threeicons {
