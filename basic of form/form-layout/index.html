@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body>
+
+  <div class="main">
+    <div>
+      <h2>JavaScript Form Validation</h2>
+      <p>Fill the form</p>
+      <form id="userForm" action="/myaction.php" method="post">
+        <div class="form-validate">
+          <label for="firstname"> First Name</label><br>
+          <input type="text" placeholder="Enter Your First name" id="firstname" name="fname" required /><br>
+          <span class="error-message" id="firstname-error"></span>
+        </div>
+        <div class="form-validate">
+          <label for="lastname"> Last Name</label><br>
+          <input type="text" placeholder="Enter Your Last name" id="lastname" name="lname" required /><br>
+          <span class="error-message" id="lastname-error"></span>
+        </div>
+        <div class="form-validate">
+          <label for="email">Email</label><br>
+          <input type="email" placeholder="Enter Your Email" id="email" name="email" required /><br>
+          <span class="error-message" id="email-error"></span>
+        </div>
+        <div class="form-validate">
+          <label for="phone">Phone Number</label><br>
+          <input type="text" placeholder="Enter Your phone Number" id="phone" name="phone-number" required /><br>
+          <span class="error-message" id="phone-error"></span>
+        </div>
+        <div class="form-validate">
+          <label>Gender</label>
+          <div class="radio-container">
+            <input type="radio" id="male" name="gender" value="male" required> Male
+            <input type="radio" id="female" name="gender" value="female" required> Female<br>
+          </div>
+          <span class="error-message" id="gender-error"></span>
+        </div>
+        <div class="form-validate">
+          <label for="password">Password:</label><br>
+          <input type="password" placeholder="Enter Your Password" name="password" id="password" required /><br>
+          <span class="error-message" id="password-error"></span>
+        </div>
+        <div class="form-validate">
+          <label for="cpassword">Confirm Password:</label><br>
+          <input type="password" placeholder="Enter Your Password again" name="confirm-password" id="cpassword"
+            required /><br>
+          <span class="error-message" id="cpassword-error"></span>
+        </div>
+        <button type="submit" value="Submit">Submit</button>
+      </form>
+    </div>
+    <!-- <div>
+      <img>
+    </div> -->
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
