@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1616410731303-6affae095a0a?");
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-weight: bolder;
+  text-align: center;
+  color: green;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid slategray;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.radio-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+.error-message {
+  color: red;
+}
