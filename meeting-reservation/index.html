@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEO Meeting Reservation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2>Reserve Meeting with <br>CEO Er.Apsara</h2>
+      <form id="reservationForm">
+        <label for="name">FullName:</label>
+        <input type="text" id="name" required>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" required>
+
+        <!-- <label for="timeSlot">Select Meeting Time Slot:</label>
+        <select id="timeSlot" required>
+          <option value="8-9">8:00 AM - 9:00 AM</option>
+          <option value="11-1">11:00 PM - 1:00 PM</option>
+          <option value="3-5">3:00 PM - 5:00 PM</option>
+        </select> -->
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" required>
+        <div class="time-container">
+          <label for="stime">Start Time:</label>
+          <input type="time" id="stime" required>
+          <label for="etime">End Time:</label>
+          <input type="time" id="etime" required>
+        </div>
+
+
+        <button type="submit">Reserve</button>
+      </form>
+      <div class="separator"></div>
+
+      <div id="reservations">
+        <h3>Existing Reservations</h3>
+        <ul id="reservationList">
+          <li>Rupesh Budhathoki (11Am -1pm)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="images/meeting.png" alt="Meeting" />
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
