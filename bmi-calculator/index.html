@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMI Calculator Guide</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>BMI Calculator</h1>
+
+    <p class="description">
+      Enter your height and weight to calculate your Body Mass Index (BMI).
+    </p>
+
+    <div class="card">
+
+      <div class="input-group">
+        <label for="height">Height (cm)</label>
+        <input type="number" id="height" placeholder="e.g. 150">
+      </div>
+
+      <div class="input-group">
+        <label for="weight">Weight (kg)</label>
+        <input type="number" id="weight" placeholder="e.g. 55">
+      </div>
+
+      <button id="calculateBtn">Calculate BMI</button>
+
+      <div class="result">
+        <h2>Your BMI is:</h2>
+        <p id="bmiValue">--</p>
+        <p id="bmiCategory"></p>
+      </div>
+
+    </div>
+
+    <div class="guide">
+      <h2>How BMI Works</h2>
+
+      <p>
+        BMI (Body Mass Index) is calculated using this formula:
+      </p>
+
+
+
+      <ul>
+        <li>Below 18.5 → Underweight</li>
+        <li>18.5 – 24.9 → Normal weight</li>
+        <li>25 – 29.9 → Overweight</li>
+        <li>30 and above → Obese</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

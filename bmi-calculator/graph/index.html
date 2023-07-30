@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMI Calculator</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Gauge Library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-gauges/gauge.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="card">
+
+      <h1>Result</h1>
+
+      <div class="inputs">
+
+        <div class="input-group">
+          <label>Height (cm)</label>
+          <input type="number" id="height" placeholder="170">
+        </div>
+
+        <div class="input-group">
+          <label>Weight (kg)</label>
+          <input type="number" id="weight" placeholder="65">
+        </div>
+
+      </div>
+
+      <button id="calculateBtn">Calculate BMI</button>
+
+      <div class="result-text">
+        BMI = <span id="bmiValue">0.0</span> kg/m²
+        <span id="bmiStatus">(Normal)</span>
+      </div>
+
+      <!-- Gauge -->
+      <canvas id="bmiGauge"></canvas>
+
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
