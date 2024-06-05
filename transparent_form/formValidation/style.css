@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   padding: 10px 50px;
 }
@@ -6,23 +12,34 @@ body {
   font-size: 20px;
 }
 
-.formdesign input {
-  width: 50%;
-  padding: 12px 20px;
-  border: 1px solid blue;
-  margin: 14px;
-  border-radius: 4px;
-  font-size: 15px;
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid slategray;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 .formerror {
   color: red;
 }
 
-.but {
-  border-radius: 9px;
-  width: 100px;
-  height: 50px;
-  font-size: 25px;
-  margin: 22px 20px;
+button[type="submit"]  {
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ 
 }
+
+button[type="submit"]:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
